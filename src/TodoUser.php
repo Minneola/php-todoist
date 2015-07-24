@@ -9,6 +9,7 @@ namespace Minneola\Todoist;
  */
 class TodoUser extends Todos
 {
+
 	/**
 	 * @return array <TodoProject> $projects
 	 */
@@ -24,6 +25,11 @@ class TodoUser extends Todos
 	public function project($id)
 	{
 		//
+	}
+
+	public function extractClassInfo()
+	{
+		$this->data = array_merge($this->data, $this->getRequestData($this->classField()));
 	}
 
 } 
