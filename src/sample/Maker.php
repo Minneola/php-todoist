@@ -2,6 +2,7 @@
 
 namespace Minneola\Todoist\Sample;
 
+use Minneola\Todoist\TodoProject;
 use Minneola\Todoist\TodoProjects;
 use Minneola\Todoist\TodoUser;
 
@@ -23,6 +24,12 @@ class Maker
 	{
 		if(is_null($file)) $file = __DIR__ . '/../../test/projects';
 		return new TodoProjects(file_get_contents($file));
+	}
+
+	public static function Project($file = NULL)
+	{
+		if(is_null($file)) $file = __DIR__ . '/../../test/project';
+		return new TodoProject(file_get_contents($file));
 	}
 
 } 

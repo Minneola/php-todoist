@@ -16,11 +16,16 @@ With this package you can use the API of [todoist.com](http://todoist.com) withi
 # Test your application
 
 ```php
-// Generates an example User
-$user = Minneola\Todoist\Sample\Maker::User();
+user Minneola\Todoist\Sample\Maker;
 
-// generates an example Project List
-$projectList = \Minneola\Todoist\Sample\Maker::ProjectList();
+// generates an example User.
+$user = Maker::User();
+
+// generates an example Project List.
+$projectList = Maker::ProjectList();
+
+// generates an exampe Project.
+$project = Maker::Project();
 ```
 
 
