@@ -1,0 +1,38 @@
+{
+	"TempIdMapping":{},
+	"seq_no_global":0,
+	"seq_no":2180270834,
+	"UserId":1855589,
+    "Projects": [
+        {
+            "color": 7,
+            "collapsed": 0,
+            "inbox_project": true,
+            "archived_date": null,
+            "archived_timestamp": 0,
+            "id": 1855589,
+            "indent": 1,
+            "name": "Inbox",
+            "user_id": 1855589,
+            "is_deleted": 0,
+            "item_order": 0,
+            "shared": false,
+            "is_archived": 0
+        },
+        {
+            "color": 3,
+            "collapsed": 0,
+            "inbox_project": true,
+            "archived_date": null,
+            "archived_timestamp": 0,
+            "id": 1855590,
+            "indent": 1,
+            "name": "Example",
+            "user_id": 1855589,
+            "is_deleted": 0,
+            "item_order": 0,
+            "shared": false,
+            "is_archived": 0
+        }
+      ]
+}
