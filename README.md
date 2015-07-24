@@ -7,6 +7,16 @@ With this package you can use the API of [todoist.com](http://todoist.com) withi
 ```php
 ```
 
+# Test your application
+
+```php
+// Generates an example User
+$user = Minneola\Todoist\Sample\Maker::User();
+
+// generates an example Project List
+$projectList = \Minneola\Todoist\Sample\Maker::ProjectList();
+```
+
 
 # License
 
