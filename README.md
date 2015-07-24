@@ -16,7 +16,7 @@ With this package you can use the API of [todoist.com](http://todoist.com) withi
 # Test your application
 
 ```php
-user Minneola\Todoist\Sample\Maker;
+use Minneola\Todoist\Sample\Maker;
 
 // generates an example User.
 $user = Maker::User();
