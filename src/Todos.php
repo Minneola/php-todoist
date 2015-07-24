@@ -60,6 +60,7 @@ class Todos
 	{
 		if (strpos(get_class($this), 'User') !== FALSE) return 'User';
 		if (strpos(get_class($this), 'Projects') !== FALSE) return 'Projects';
+		if (strpos(get_class($this), 'Project') !== FALSE) return 'Project';
 	}
 
 	public function __get($key)
