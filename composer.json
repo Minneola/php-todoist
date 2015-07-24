@@ -1,0 +1,26 @@
+{
+    "name": "minneola/todoist",
+    "description": "A PHP package to use the todoist.com API.",
+    "keywords": ["minneola", "todoist", "maxham", "kraut"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tobias Maxham",
+            "email": "git2015@maxham.de"
+        }
+    ],
+    "homepage": "http://maxham.de",
+    "support": {
+        "issues": "https://github.com/Minneola/php-todoist/issues",
+        "source": "https://github.com/Minneola/php-todoist"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Minneola\\Todoist\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
