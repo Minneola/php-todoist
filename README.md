@@ -13,6 +13,17 @@ With this package you can use the API of [todoist.com](http://todoist.com) withi
 ```php
 ```
 
+
+# Usage
+
+## User
+
+## Project
+
+## Task
+
+
+
 # Test your application
 
 ```php
